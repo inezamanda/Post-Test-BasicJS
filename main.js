@@ -1,5 +1,6 @@
 // 3A
 // Program menghitung luas segitiga
+alert(`Program Menghitung Luas Segitiga`);
 let base = prompt(`Berapa cm alas segitiga yang akan dihitung luasnya?`);
 let height = prompt(`Berapa cm tinggi segitiga yang akan dihitung luasnya?`);
 let triArea = (base*height)/2;
@@ -8,6 +9,7 @@ alert(triArea + ` cm^2`);
 
 // 3B
 // Program menghitung luas lingkaran
+alert(`Program Menghitung Luas Lingkaran`);
 let radius = prompt(`Berapa cm radius lingkaran yang akan dihitung luasnya?`);
 let cirArea = Math.PI * Math.pow(radius, 2);
 alert(cirArea + ` cm^2`);
@@ -38,7 +40,7 @@ let index = 1;
 nilaiMtk.forEach(function(item){
     // menampilkan data dengan func alert
     // alert(`Data ${index} dari nilai matematika adalah ${item}`);
-    
+
     // menampilkan data di console
     console.log(`Data ke-${index} dari nilai matematika adalah ${item}`);
     index+=1;
